@@ -11,7 +11,6 @@ The LSM9DS0 iNEMO inertial module features a 3D digital linear acceleration sens
 ## Usage
 
 ```html
-<pre>
 #include <SFE_LSM9DS0.h>
 #include <LSM9DS0_AHRS.h>
 
@@ -32,7 +31,6 @@ void loop()
   // raw, pitch and roll available with:
   // ahrs->yaw, ahrs->pitch and ahrs->roll
 }
-</pre>
 ```
 
 ## Requirements
